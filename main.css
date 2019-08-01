@@ -1,0 +1,120 @@
+body{
+   margin-top: 0px;
+   padding-top:0px;
+   margin-left: 0px;
+   margin-right: 0px;
+}
+.nav {
+    background-color: #c08cf3;
+    padding: 10px;
+}
+
+.nav a{
+    color: white;
+    float: left;
+    margin-right: 60px;
+    
+
+}
+
+
+.image{
+    position: absolute;
+    top: 120px;
+    left: 200px;
+    
+}
+.img1{
+    position: absolute;
+    top: 120px;
+    left: 400px;
+    
+}
+.img2{
+    position: absolute;
+    top: 120px;
+    left: 600px;
+}
+.box1{
+    position: absolute;
+    top:200px;
+    padding-bottom: 20px;
+    background-color:#efe0fa;
+}
+.box2{
+    position: absolute;
+    top:280px;
+    border: solid 20px  #efe0fa;
+    padding: 40px 60px 40px 60px;
+}
+p{
+    margin-left: 20px;
+    font-size: 25px;
+}
+.groupic{
+    width: 40%;
+    height: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.position1{
+    position: absolute;
+    top:auto;
+    left: 300px;
+    margin-left: 100px;
+}
+.position2{
+    position: absolute;
+    top: auto;
+    right: auto;
+    left: 600px;
+    margin-left: 160px;
+
+}
+
+.edit{
+  
+    width: 120px;
+    height: 120px;
+    margin-left: 120px;
+    margin-right: 120px;
+    border: solid 5px black;
+
+}
+.container {
+    position: relative;
+    width: 50%;
+  }
+ 
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 135px;
+    right: 0;
+    height: 120px;
+    width: 120px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#806c93;
+  }
+ 
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+

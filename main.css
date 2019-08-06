@@ -1,4 +1,4 @@
-body{
+body,html {
    margin-top: 0px;
    padding-top:0px;
    margin-left: 0px;
@@ -19,74 +19,79 @@ body{
 
 
 .image{
-    position: absolute;
-    top: 120px;
-    left: 200px;
+    
     
 }
 .img1{
-    position: absolute;
-    top: 120px;
-    left: 400px;
+    
+   
     
 }
 .img2{
-    position: absolute;
-    top: 120px;
-    left: 600px;
+  
+
 }
-.box1{
-    position: absolute;
-    top:200px;
-    padding-bottom: 20px;
-    background-color:#efe0fa;
-}
+
 .box2{
     position: absolute;
     top:280px;
     border: solid 20px  #efe0fa;
     padding: 40px 60px 40px 60px;
 }
+.box1{
+ 
+}
 p{
     margin-left: 20px;
     font-size: 25px;
 }
-.groupic{
-    width: 40%;
-    height: 60%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
+
+.pos1{
+    position: absolute;
+    top: auto;
+    left: auto;
+    border: solid 1px black;
 }
-.position1{
+.pos2{
     position: absolute;
     top:auto;
     left: 300px;
     margin-left: 100px;
+    border: solid 1px black;
 }
-.position2{
+.pos3{
     position: absolute;
     top: auto;
     right: auto;
     left: 600px;
-    margin-left: 160px;
-
+    margin-left: 180px;
+    border: solid 1px black;
 }
+
 
 .edit{
   
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
     margin-left: 120px;
     margin-right: 120px;
     border: solid 5px black;
 
 }
 .container {
-    position: relative;
-    width: 50%;
+     position: relative;
+     top: 100px;
+     left: 0px;
+     float: right;
+     margin-top: 30px;
+     object-position: center;
+
   }
+  .another-container{
+    position: relative;
+    top: 1000px;
+    left: 100px;
+}
  
   .overlay {
     position: absolute;
@@ -94,8 +99,8 @@ p{
     bottom: 0;
     left: 135px;
     right: 0;
-    height: 120px;
-    width: 120px;
+    height: 200px;
+    width: 200px;
     opacity: 0;
     transition: .5s ease;
     background-color:#806c93;
@@ -115,6 +120,7 @@ p{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+    margin: 0px;
   }
 
 

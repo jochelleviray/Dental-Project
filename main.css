@@ -1,9 +1,11 @@
-body,html {
+body, footer  {
    margin-top: 0px;
    padding-top:0px;
    margin-left: 0px;
    margin-right: 0px;
+
 }
+
 .nav {
     background-color: #c08cf3;
     padding: 10px;
@@ -13,99 +15,129 @@ body,html {
     color: white;
     float: left;
     margin-right: 60px;
-    
+
+    /*third logo*/   
+
+}
+h4{
+  color: white;
+  margin-left: 700px;
+}
+.container3{
+  position: relative;
+  width:50%;
+  margin-top: 0px;
+}
+.img3{
+  position: absolute;
+  top:0;
+  right:auto;
+  left:405px;
+}
+.overlay3{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left:390px;
+  right: 0;
+  height: 200px;
+  width: 200px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#c08cf3;
+  margin-left:15px;
 
 }
 
-
-.image{
-    
-    
+.container:hover .overlay3 {
+  opacity: 1;
 }
-.img1{
-    
-   
-    
+
+.text3 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin: 0px;
+}
+/*second button*/
+.container2{
+  position: relative;
+  width:50%;
+  margin-top: 0px;
 }
 .img2{
-  
+  position: absolute;
+  top:0;
+  right:auto;
+  left:220px;
+}
+.overlay2{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left:205px;
+  right: 0;
+  height: 200px;
+  width: 200px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#c08cf3;
+  margin-left:15px;
 
 }
 
-.box2{
-    position: absolute;
-    top:280px;
-    border: solid 20px  #efe0fa;
-    padding: 40px 60px 40px 60px;
-}
-.box1{
- 
-}
-p{
-    margin-left: 20px;
-    font-size: 25px;
+.container:hover .overlay2 {
+  opacity: 1;
 }
 
-.pos1{
-    position: absolute;
-    top: auto;
-    left: auto;
-    border: solid 1px black;
+.text2 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin: 0px;
 }
-.pos2{
-    position: absolute;
-    top:auto;
-    left: 300px;
-    margin-left: 100px;
-    border: solid 1px black;
+/*first button*/
+.container{
+  position: relative;
+  width:50%;
+  margin-top: 150px;
+  margin-left:30px;
 }
-.pos3{
-    position: absolute;
-    top: auto;
-    right: auto;
-    left: 600px;
-    margin-left: 180px;
-    border: solid 1px black;
-}
-
 
 .edit{
-  
-    width: 200px;
-    height: 200px;
-    margin-left: 120px;
-    margin-right: 120px;
-    border: solid 5px black;
+  display: block;
+  width: 200px;
+  height: 200px;
+  border: solid 5px black;
 
 }
-.container {
-     position: relative;
-     top: 100px;
-     left: 0px;
-     float: right;
-     margin-top: 30px;
-     object-position: center;
-
-  }
-  .another-container{
-    position: relative;
-    top: 1000px;
-    left: 100px;
-}
- 
-  .overlay {
+.overlay{
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 135px;
+    left:0;
     right: 0;
     height: 200px;
     width: 200px;
     opacity: 0;
     transition: .5s ease;
-    background-color:#806c93;
+    background-color:#c08cf3;
+    margin-left:15px;
+  
   }
- 
+  
   .container:hover .overlay {
     opacity: 1;
   }
@@ -122,5 +154,86 @@ p{
     text-align: center;
     margin: 0px;
   }
+ 
 
-
+/*check-up menu*/
+  .pos1{
+    position: absolute;
+    top:auto;
+    right: auto;
+    left: 50px;
+    border: solid 1px #c08cf3;
+    color: #c08cf3;
+  }
+  .pos2{
+    position: absolute;
+    top:auto;
+    right: auto;
+    left: 400px;
+    border: solid 1px #c08cf3;
+    color: #c08cf3;
+  }
+  .pos3{
+    position: absolute;
+    top: auto;
+    right: auto;
+    left:750px;
+    margin-right: 0px;
+    border: solid 1px #c08cf3;
+    color:#c08cf3;
+  }
+ 
+  .another-container{
+    margin-top: 500px;
+    
+  }
+  .color div{
+    background: linear-gradient(to top, #cc99ff 0%, #ccccff 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  /*Insurance*/
+   .logos{
+      position: absolute;
+      top: 900px;
+           }
+  .size{
+    height:150px;
+    width: 150px;
+  }
+  #cigna{
+    position: absolute;
+    top: 300px;
+    right: auto;
+    bottom: 500px;
+    left: 0px;
+  }
+  #eHealth{
+    position: absolute;
+    top: 300px;
+    right: auto;
+    bottom: 500px;
+    left: 300px;
+  }
+  #spirit{
+    position: absolute;
+    top: 300px;
+    right: auto;
+    bottom: 500px;
+    left: 600px;
+  }
+  #aetna{
+    position: absolute;
+    top: 300px;
+    right: auto;
+    bottom: 500px;
+    left: 900px;
+  }
+  /*footer*/
+  .box{
+    width: 100%;
+    background-size: cover;
+    margin-top: 1500px;
+    color: #c08cf3;
+  }
+ 

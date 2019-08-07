@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dental Website</title>
     <link rel="stylesheet" href="main.css">
+    <!--bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <style>
@@ -13,13 +14,15 @@
 </style>
 
 <body>
-    
+    <!--the nav bar -->
         <div class="nav" id="anothernav">
-        <a href="#menu" class="first-nav">Menu</a>
-        <a href="#" class="first-nav">Contact Us!</a>
+        <a href="#menu" class="first-nav active">Menu</a>
+        <a href="#contact" class="first-nav">Contact Us!</a>
         <a href="https://www.google.com/maps/"class="first-nav">Location</a>
+        <h4>Gellert Dental</h4>
       
 </div>
+<!--Picture slide-->
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -28,16 +31,13 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="gellert_family.jpeg" class="d-block w-100" alt="family" height = "50%" width=
-            "100%">
+            <img src="gellert_family.jpeg" class="d-block w-100" alt="family">
           </div>
           <div class="carousel-item">
-            <img src="gellert_office.jpg" class="d-block w-100" alt="office" height = "50%" width=
-            "100%">
+            <img src="gellert_office.jpg" class="d-block w-100" alt="office">
           </div>
           <div class="carousel-item">
-            <img src="gellert_portrait.jpeg" class="d-block w-100" alt="portrait" height="50%"width=
-            "100%">
+            <img src="gellert_portrait.jpeg" class="d-block w-100" alt="portrait">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" >
@@ -49,56 +49,79 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+    <!-- menu logos-->
     
-  <div class="container img1" id="menu">
-      <img src="face.jpg" alt="AboutUs" class="rounded-lg edit">
+  <div class="container img1" id="menu"> <!--About Me -->
+      <img src="face.jpg" alt="AboutUs" class="rounded-lg edit img1">
       <div class="overlay img1">
          <div class="text img1"><a href="about-us.html">About Us</a></div>
       </div>
-    </div>
-    <div class="container img1">
-    <img src="ins1.jpg" alt="Checkup" class="rounded-lg edit">
-    <div class="overlay img1">
-          <div class="text img1"><a href="#check-up">Check Up</a></div>
+     <div class="container2 img2"> <!--Check-up-->
+    <img src="ins1.jpg" alt="Checkup" class="rounded-lg edit img2">
+    <div class="overlay2 img2 ">
+          <div class="text2 img2"><a href="#check-up">Check Up</a></div>
         </div>
-  </div>
-        <div class="container img2">
-      <img src="ins.jpg" alt="Insurance" class="rounded-lg edit">
-    <div class="overlay img2">
-          <div class="text img2">Insurance</div>
+      </div>
+      <div class="container3 img3"><!--Insurance-->
+     <img src="ins.jpg" alt="Insurance" class="rounded-lg edit img3">
+    <div class="overlay3 img3">
+          <div class="text3 img3"><a href="#Insurance">Insurance</a></div>
         </div>
     </div>
 
 
-
- 
-        <div class="another-container">
+        <!--Check-up area-->
+        <div class="another-container" id="check-up">
             <div class="card-body pos1"style="width:18rem" >
-              <h5 class="card-title">Card with stretched link</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="page2.html" class="btn btn-primary stretched-link" target="_blank">Go somewhere</a>
+              <h5 class="card-title">Preventive and Diagnotics</h5>
+              <p class="card-text">See our option for check-up, x-ray and other diagnotics test.</p>
+              <a href="preventive.html" class="btn btn-primary stretched-link">Learn more</a>
             
           </div>
-          
+        </div>
+                 <div class="another-container">
                 <div class="card-body pos2" style="width:18rem">
-                <h5 class="card-title">Card with stretched link</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="page3.html" class="btn btn-primary stretched-link" target="_blank">Go somewhere</a>
+                <h5 class="card-title">Basic Restorative</h5>
+                <p class="card-text">We have many options in our clinic to keep your teeth strong and healthy.</p>
+                <a href="basic-restore.html" class="btn btn-primary stretched-link">Learn more</a>
             </div>
+          </div>
+            <div class="another-container">
                   <div class="card-body pos3"style="width:18rem">
-                    <h5 class="card-title">Card with stretched link</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="page4.html" class="btn btn-primary stretched-link" target="_blank">Go somewhere</a>
+                    <h5 class="card-title">Major Restorative</h5>
+                    <p class="card-text">Our specialization on surgical treatment is on this section.</p>
+                    <a href="major-restore.html" class="btn btn-primary stretched-link">Learn more</a>
                   </div>
                 </div>
-            </div>
-          
+         
 
-            <div class="container box1" id="About-Us">
-                
-        
-              </div>
-   
+              <!--insurance-->
+          <div class="logos" id="Insurance">
+            <div class="size"  id="eHealth">
+            <a href="https://www.ehealthinsurance.com/" target="_blank"><img src="eHealth.jpeg" alt="..." class="size"></a>
+          </div>
+          <div class="size" id="cigna">
+            <a href="https://www.cigna.com/" target="_blank"><img src="cigna.jpg" alt="..." class="size"></a>
+          </div>
+          <div clas="size" id="spirit">
+            <a href="https://www.spiritdental.com/" target="_blank"><img src="spirit.jpeg" alt="..." class="size"></a>
+          </div>
+          <div class="size" id="aetna">
+            <a href="https://www.aetnadentaloffers.com" target="_blank"><img src="aetna.png" alt=".." class="size"></a>
+          </div>
+          </div>
+<!--Contact-->
+
+ 
+  <div class="box" id="contact">
+  <h5>Our contact:</h5>
+  <p>email: gellert@yahoo.com
+    <br> number: 1(800)-890-6790
+  </p>
+</div>
+
+
+   <!--bootstrap-->
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
